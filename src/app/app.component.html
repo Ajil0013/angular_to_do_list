@@ -3,5 +3,11 @@
   <button class="btn" (click)="addTask()">Add Task</button>
 </div>
 <ul>
-  <span class="item" *ngFor="let item of items; let index=index">{{item}}<button class="check" (click)="deleteTask(index)">Done</button></span>
+  <span *ngFor="let item of items; let index=index"><span *ngIf="item.done" class="item-d">{{item.content}}
+    <button class="check2">Done</button >
+    <button class="check" (click)="deleteTask(index)">X</button>
+  </span>
+  <span *ngIf="!item.done" class="item-nd">{{item.content}}
+    <button class="check1" (click)="onDone(index)" *ngIf="!item.done">Done</button >
+      <button class="check" (click)="deleteTask(index)">X</button></span></span>
 </ul>

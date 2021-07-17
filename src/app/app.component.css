@@ -24,7 +24,7 @@ input{
 }
 
 
-.item{
+.item-nd{
   display: block;
   font-size: 1.8rem;
   font-family: cursive;
@@ -36,9 +36,35 @@ input{
   border-radius: 2%;
 }
 
+.item-d{
+  display: block;
+  font-size: 1.8rem;
+  font-family: cursive;
+  padding: 2%;
+  color:cornsilk;
+  background-color: #FF6767;
+  width:50%;
+  margin: 10px auto;
+  border-radius: 2%;
+  text-decoration: line-through;
+}
+
 .check{
   position: fixed;
   right: 26%;
+  padding:1%;
+  color:azure;
+  background-color: #BB371A;
+  border-radius: 100%;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width:50px;
+}
+
+.check1{
+  position: fixed;
+  right: 34%;
   padding:1%;
   color:azure;
   background-color: #57837B;
@@ -47,3 +73,17 @@ input{
   font-size: 1.2rem;
   cursor: pointer;
 }
+
+.check2{
+  position: fixed;
+  right: 34%;
+  padding:1%;
+  color:azure;
+  background-color: #5D8233;
+  border-radius: 5%;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
