@@ -1,0 +1,7 @@
+<div class="task-input">
+  <input type="text" placeholder="Type in your activity" [(ngModel)]="task">
+  <button class="btn" (click)="addTask()">Add Task</button>
+</div>
+<ul>
+  <span class="item" *ngFor="let item of items; let index=index">{{item}}<button class="check" (click)="deleteTask(index)">Done</button></span>
+</ul>

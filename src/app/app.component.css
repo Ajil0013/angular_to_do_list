@@ -1,0 +1,49 @@
+div{
+  margin-left:480px;
+}
+
+input{
+  font-size: larger;
+  padding:8px;
+  margin-top: 18px;
+}
+
+.btn{
+  margin-left: 40px;
+  padding:1%;
+  color:azure;
+  background-color: chocolate;
+  border-radius: 5%;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color:rgb(153, 72, 14);
+}
+
+
+.item{
+  display: block;
+  font-size: 1.8rem;
+  font-family: cursive;
+  padding: 2%;
+  color:cornsilk;
+  background-color: #50CB93;
+  width:50%;
+  margin: 10px auto;
+  border-radius: 2%;
+}
+
+.check{
+  position: fixed;
+  right: 26%;
+  padding:1%;
+  color:azure;
+  background-color: #57837B;
+  border-radius: 5%;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
